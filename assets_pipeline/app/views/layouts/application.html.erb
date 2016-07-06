@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AssetsPipeline</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%# render 'layouts/bootstrap' %>
+
+
+</head>
+<body>
+
+
+<body class="pages">
+<%= render 'layouts/header' %>
+
+<span class="glyphicon glyphicon-bed" aria-hidden="true"></span>
+
+<%= yield %>
+
+</body>
+</html>
